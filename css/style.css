@@ -11,7 +11,7 @@ img {
 }
 body {
     color: #44464a;
-    background: lightgray;
+    background: rgb(135, 49, 49);
 }
 h1, h2, h3, h4 {
     margin-top: 0;
