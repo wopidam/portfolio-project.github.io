@@ -1,10 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100..700;1,100..700&family=Poiret+One&display=swap');
 
 html,
 body {
   margin: 0 auto;
   padding: 0;
   width: 100%;
+  height: 100%;
   /* max-width: 1920px; */
 }
 img {
@@ -13,12 +14,27 @@ img {
 }
 * {
   box-sizing: border-box;
+  
 }
 body {
   color: #44464a;
-  /* background: rgb(63, 1, 1); */
-  background-image: url();
+  background: rgb(63, 1, 1);
+  background-image: url(/images/flowersss_background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
+.wrapper {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: fixed;
+  margin: 0 auto;
+  background: rgb(22,19,205);
+  background: radial-gradient(circle, rgba(22,19,205,0.25) 0%, rgba(2,0,89,.1) 100%);
+  background-size: cover;
+}
+
 h1,
 h2,
 h3,
@@ -28,10 +44,11 @@ h4 {
 }
 h1 {
   font-family: "Josefin Slab", serif;
-  font-weight: normal;
-  text-transform: uppercase;
-  font-size: 3rem;
-  color: #1f2021;
+  font-weight: 700;
+  letter-spacing: .5rem;
+  /* text-transform: uppercase; */
+  font-size: 3.5rem;
+  color: #1a1b1f;
   margin: auto;
   padding: .75rem 2rem;
   padding-top: 2.6rem;
@@ -39,39 +56,83 @@ h1 {
   /* background-color: red; */
 }
 h2 {
-  margin: 0 auto;
-  padding: 1.5rem;
-  text-align: left;
+  color: #a6afd2;
+  margin: .5rem 10rem;
+  margin-bottom: 1rem;
+  padding: .75rem;
+  padding-bottom: 1rem;
+  text-align: center;
+  overflow: auto;
+  font-family: "Poiret One";
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: .2rem;
+  text-transform: lowercase;
+  background-color: rgba(1, 6, 27, 0.731); 
+  outline: solid black 2px;
+  box-shadow: 5px 5px black;
+  border: solid gray 2px;
+  outline: solid black 2px;
+  /* border-radius: 3rem; */
+  border-radius: 1rem 3rem 1rem 2rem;
+  box-shadow: 6px 6px 2px black;
 }
 header {
-  background-color: rgb(228, 200, 108);
+  background: rgb(245,190,12);
+  background: linear-gradient(101deg, rgb(238, 159, 40, .98) 0%, rgba(240,129,17,0.88) 53%, rgba(215,56,56,0.36) 100%); 
 }
 .page-main {
   width: 95%;
   max-width: 1920px;
   margin: 0 auto;
-}
-.main-img {
-  width: 50%;
-  float: left;
-  margin-right: 15px;
-}
-main {
-  background-color: black;
-  padding: 1rem;
+  padding: 1.2rem;
+  font-family: "Poiret One", serif;
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  overflow: scroll;
 }
 nav {
-  background-color: rgb(228, 200, 108);
+  background-color: rgb(240, 158, 17);
   font-family: "Josefin Slab", serif;
   font-size: 1.5rem;
+  font-weight: 500;
+  box-shadow: 0px 5px 15px rgb(108, 33, 7);
 }
 nav li a:link {
+  color: #16181b;
   text-decoration-line: none;
   padding: .5rem;
 }
 nav li a:hover {
   color: white;
   background-color: #5b582f76;
+  font-style: normal;
+}
+nav li a:active {
+  color: whitesmoke;
+  background-color: rgb(206, 70, 20);
+  box-shadow: 10px 0px black;
+  font-style: oblique;
+}
+nav li a:visited {
+  color: rgb(73, 32, 32);
+}
+nav li a:visited:hover {
+  color: white;
+}
+aside {
+  background-color: #16181b;
+}
+.main-img {
+  width: 50%;
+  float: left;
+  margin-right: 15px;
+}
+.main-content {
+  background: rgb(1,1,12);
+  background: linear-gradient(0deg, rgba(1,1,12,0.925) 0%, rgba(1,1,10,1) 60%, rgba(1,1,9,0.9431818181818182) 73%, rgba(1,1,9,0.8295454545454546) 83%, rgba(1,1,8,0.65) 92%, rgba(1,0,4,0.4) 96%, rgba(1,0,4,0) 100%, rgba(2,0,89,1) 100%);  
+  padding: 1rem;
 }
 .gallery {
   display: flex;
@@ -80,15 +141,26 @@ nav li a:hover {
   max-width: 1080px;
   margin: 0 auto;
 }
-.music {
+.music-page {
+  /* background-image: url(/images/flowersss_music.png); */
+  width: cover;
+}
+/* .music {
+  font-family: "Josefin Slab", serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #1f2021;
+  letter-spacing: .5rem;
   margin: 0 auto;
   padding: 1rem;
   width: 30%;
   text-align: center;
-  background-color: rgb(66, 3, 3);
+  background-color: rgb(228, 200, 108);
   border-radius: 45px;
-}
+} */
 .music-main {
+  margin: 0 auto;
+  margin: 0rem 1rem;
   border-radius: 130px;
 }
 .tracks {
@@ -98,6 +170,22 @@ nav li a:hover {
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
+.form {
+  font-family: "Poiret One", serif;
+  color: white;
+  text-align: center;
+}
+#reference-media li {
+  list-style: none;
+}
+#reference-media a:link {
+  margin: auto;
+  padding: 1rem;
+  font-family: "Poiret One", serif;
+  color: black;
+  background-color: gray;
+}
+
 footer {
   margin: 0 auto;
   padding: 1rem;
@@ -107,6 +195,9 @@ footer {
   width: 100%;
 }
 @media (min-width: 768px) {
+  h1 {
+    margin-left: 1.25rem;
+  }
   nav {
     text-align: right;
   }
@@ -114,10 +205,24 @@ footer {
     display: inline-block;
     margin: 1rem;
   }
+  main {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+  }
+  aside {
+    grid-row: 4 / span 1;
+  }
   .tracks {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
+  }
+  #reference-media {
+    margin-top: 2rem;
+    display: grid;
+    grid-template-rows: auto;
+    row-gap: 3rem;
   }
 }
 @media (max-width: 1300px) {
@@ -127,11 +232,21 @@ footer {
   }
 }
 @media (max-width: 768px) {
+  .page-main {
+    margin: 0 auto;
+    width: 95%;
+    display: grid;
+  }
   h1 {
     font-size: 2.3rem;
+    text-align: center;
+  }
+  h2 {
+    font-size: 1rem;
   }
   nav ul {
     margin: 0 auto;
+    margin-bottom: 1rem;
     padding: 2rem;
     text-align: center;
     list-style: none;
