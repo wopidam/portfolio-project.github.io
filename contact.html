@@ -39,15 +39,25 @@
                 Contact
             </h2>
             <div class="main-content">
-                <p>Paragraph of information or something</p>
-                <!-- <img class="main-img" src="./images/Hammerhead-Shark-2954345104.jpeg" alt="Hammerhead-Shark-2954345104"> -->
+                <p class="contact-message">Send a message or ask about commissions!</p>
+                <img class="main-img" src="./images/post-horn.png" alt="post horn sign">
                  <div class="form">
                     <form action="/action_pagephp">
-                        <label for="name">Name</label><br>
+                        <label for="name">Name:</label><br>
                         <input type="text" name="name" id="name"><br>
-                        <label for="email">Email</label><br>
+                        <label for="email">Email:</label><br>
                         <input type="email" name="email" id="email">
                     </form>
+                    <form action="http://www.example.com/comments.php">
+                        <p>Message:</p>
+                        <textarea name="comments" cols="30" rows="6">Type here...
+                        </textarea>
+                        <br>
+                        <div id="submit-button">
+                            <input type="submit" value="Submit">
+                        </div>
+                    </form>
+
                  </div>
             </div>
             <!-- <aside>
