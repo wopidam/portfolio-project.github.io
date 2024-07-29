@@ -6,6 +6,17 @@
     <title>Portfolio Final Project</title>
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="stylesheet" href="./css/lightbox.min.css"/>
+    <style>
+        div.scroll {
+            margin: 4px, 4px;
+            padding: 4px;
+            width: auto;
+            height: 720px;
+            overflow-x: hidden;
+            overflow-y: auto;
+            text-align: justify;
+        }
+    </style>
     <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -39,19 +50,20 @@
             <h2>
                 Visual Art
             </h2>
-            <div class="main-content">
-                <!-- <img class="main-img" src="./images/czubatka.png"> -->
-                <div class="gallery">
-                    <a href="./images/bird!!!!.png" data-lightbox="imagegallery"><img src="./images/bird!!!!.png" alt=""></a>
-                    <a href="./images/hummingbird.png" data-lightbox="imagegallery"><img src="./images/hummingbird.png" alt=""></a>
-                    <a href="./images/cat storm.png" data-lightbox="imagegallery"><img src="./images/cat storm.png" alt=""></a>
-                    <a href="./images/cliff swallow.png" data-lightbox="imagegallery"><img src="./images/cliff swallow.png" alt=""></a>
-                    <a href="./images/czubatka.png" data-lightbox="imagegallery"><img src="./images/czubatka.png" height="172" alt=""></a>
+            <div class="scroll">
+                <div class="main-content">
+                    <div class="gallery">
+                        <a href="./images/bird!!!!.png" data-lightbox="imagegallery"><img src="./images/bird!!!!.png" alt=""></a>
+                        <a href="./images/hummingbird.png" data-lightbox="imagegallery"><img src="./images/hummingbird.png" alt=""></a>
+                        <a href="./images/cat storm.png" data-lightbox="imagegallery"><img src="./images/cat storm.png" alt=""></a>
+                        <a href="./images/cliff swallow.png" data-lightbox="imagegallery"><img src="./images/cliff swallow.png" alt=""></a>
+                        <a href="./images/czubatka.png" data-lightbox="imagegallery"><img src="./images/czubatka.png" height="172" alt=""></a>
+                    </div>
+                    <!-- <aside>
+                        Extra Stuff
+                    </aside> -->
                 </div>
             </div>
-            <aside>
-                Extra Stuff
-            </aside>
         </main>
         <footer>
             &copy;2024 Madi's Portfolio
