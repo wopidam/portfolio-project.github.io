@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100..700;1,100..700&family=Poiret+One&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+}
+/* try to figure out bgfade in js */
+body {
+  height: fit-content;
+  /* width: fit-content; */
+  /* background-image: url(/images/flowersss_background.png);
+  background-size: cover;
+  background-repeat: no-repeat; */
+  background-color: black;
+  overflow: scroll;
+  background: linear-gradient(to bottom, #d99d9d 0%,#87a3ab 18%);
+  animation: bgFade 200s ease infinite;
+}
+header {
+  margin: 0;
+  padding: 20px;
+  background-image: url(/images/flowersss_background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* background: rgb(28, 26, 62);
+  background: linear-gradient(
+    180deg,
+    rgb(1, 119, 82, 0.99) 0%,
+    /* rgba(9, 9, 77, 0.75) 100%, */ rgba(2, 71, 85, 0.85) 100%
+  ); */
+  color: rgba(255, 255, 255, 0.75);
+  font-family: "Poiret One", serif;
+  font-weight: 800;
+  font-size: 1.5rem;
+  letter-spacing: 1dvh;
+  text-align: center;
+}
+nav {
+  margin: auto;
+  padding: 0.25rem;
+  text-align: center;
+  background-color: rgb(66, 99, 108);
+  text-decoration-line: none;
+  outline: outset 2px rgb(251, 251, 253);
+
+}
+nav li {
+  display: inline-block;
+  margin: 0 1.5rem;
+}
