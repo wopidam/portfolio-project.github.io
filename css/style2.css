@@ -85,7 +85,7 @@ nav a:active {
   font-style: oblique;
 }
 nav a:visited {
-  /* color: rgb(45, 95, 107); */
+  color: rgb(45, 95, 107);
   text-decoration-line: none;
 }
 main {
