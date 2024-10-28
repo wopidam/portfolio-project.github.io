@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio Final Project</title>
-    <link rel="stylesheet" href="./css/style4.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
     <script
       src="https://code.jquery.com/jquery-3.7.1.min.js"
       integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
@@ -26,9 +26,9 @@
             <li>
               <a href="./music.html">Music</a>
             </li>
-            <!-- <li>
+            <li>
               <a href="./visual-art.html">Visual Art</a>
-            </li> -->
+            </li>
             <li>
               <a href="./contact.html">Contact</a>
             </li>
@@ -47,7 +47,7 @@
               St. Louis-based musician, web designer, and printmaker.
               <br />
               <div class="horn-picture">
-                <img src="images/Asset 3.svg" alt="illustration of a horn"/>
+                <img src="images/Asset 3.svg" alt=""/>
               </div>
               I have studied horn and trumpet for over 10 years, but lately, I've st.
               <br />My approach to synthesizer has been heavily influenced by

@@ -4,12 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio Final Project</title>
-    <link rel="stylesheet" href="./css/style2.css" />
-    <script
+    <link rel="stylesheet" href="./css/style4.css" />
+    <!-- <script
       src="https://code.jquery.com/jquery-3.7.1.min.js"
       integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
       crossorigin="anonymous"
-    ></script>
+    ></script> -->
   </head>
   <body>
     <div class="wrapper">
@@ -26,9 +26,9 @@
             <li>
               <a href="./music.html">Music</a>
             </li>
-            <li>
+            <!-- <li>
               <a href="./visual-art.html">Visual Art</a>
-            </li>
+            </li> -->
             <li>
               <a href="./contact.html">Contact</a>
             </li>
@@ -50,7 +50,7 @@
             alt="post horn sign"
             height="100"
           />
-          <div class="form">
+          <!-- <div class="form">
             <form action="/action_pagephp">
               <label for="name">Name:</label><br />
               <input type="text" name="name" id="name" /><br />
@@ -69,10 +69,19 @@ Type here...
               </div>
             </form>
           </div>
-        </div>
+        </div> -->
         <!-- <aside>
                 Extra Stuff
             </aside> -->
+            <div class="form">
+              <p>send email</p>
+              <form action="contact-form" action="contactform.php" method="POST"></form>
+              <input type="text" name="name" placeholder="Full name">
+              <input type="text" name="mail" placeholder="Your e-mail">
+              <input type="text" name="subject" placeholder="Subject">
+              <textarea name="message" placeholder="Message"></textarea>
+              <button type="submit" name="submit">SEND MAIL</button>
+              </div>
       </main>
       <footer>&copy;2024 Madi Powers</footer>
     </div>
