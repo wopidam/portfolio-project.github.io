@@ -109,7 +109,7 @@ header {
   font-weight: 600;
   font-size: 1.5rem;
   line-height: 2.5rem;
-  overflow: scroll;
+  /* overflow: scroll; */
 }
 nav {
   background-color: rgb(240, 158, 17);
@@ -386,6 +386,7 @@ footer {
     width: 100%;
     display: grid;
     max-height: fit-content;
+    overflow: scroll;
   }
   h1 {
     font-size: 2.3rem;

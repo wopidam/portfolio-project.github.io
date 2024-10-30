@@ -3,10 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio Final Project</title>
-    <link rel="stylesheet" href="./css/newstyles.css" />
+    <title>Madi Powers</title>
+    <link rel="stylesheet" href="./css/style4.css" />
     <link rel="stylesheet" href="./css/lightbox.min.css" />
-    <style>
+    <!-- <style>
       div.scroll {
         margin: 4px, 4px;
         padding: 4px;
@@ -16,7 +16,13 @@
         overflow-y: auto;
         text-align: justify;
       }
-    </style>
+    </style> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
     <script
       src="https://code.jquery.com/jquery-3.7.1.min.js"
       integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
@@ -26,7 +32,7 @@
   <body>
     <div class="wrapper">
       <header>
-        <h1>Madi Powers</h1>
+        <h1 class="h1-header">Madi Powers</h1>
         <nav>
           <ul>
             <li>
@@ -38,9 +44,9 @@
             <li>
               <a href="./music.html">Music</a>
             </li>
-            <li>
+            <!-- <li>
               <a href="./visual-art.html">Visual Art</a>
-            </li>
+            </li> -->
             <li>
               <a href="./contact.html">Contact</a>
             </li>
@@ -55,68 +61,99 @@
         <div class="main-content">
           <div class="scroll">
             <div class="gallery">
-              <p>
-                Metronom. full picture. Fully-functioning giant metronome
-                (Prague, Czech Republic 2017)
-              </p>
-              <a href="./photos/metronombig.png" data-lightbox="imagegallery"
-                ><img
-                  src="./photos/metronombig.png"
-                  height="172"
-                  alt="full photo of giant Prague Metronom"
-              /></a>
-              <p>Metronom closeup (Prague, Czech Republic 2017)</p>
-              <a href="./photos/metronom.JPG" data-lightbox="imagegallery"
-                ><img
-                  src="./photos/metronom.JPG"
-                  alt="Metronom closeup photo in Prague, Czech Republic"
-              /></a>
-              <p>
-                Pražský orloj - Prague Astronomical Clock closeup (Prague, Czech
-                Republic 2017
-              </p>
-              <a href="./photos/clock.JPG" data-lightbox="imagegallery"
-                ><img
-                  src="./photos/clock.JPG"
-                  alt="closeup photo of the prague astronomical clock"
-              /></a>
-              <p>Prague Castle (Prague, Czech Republic 2017)</p>
-              <a href="./photos/spire.JPG" data-lightbox="imagegallery"
-                ><img src="./photos/spire.JPG" alt="prague castle photograph"
-              /></a>
-              <p>Duck and ducklings in a pond (Budapest, Hungary 2017)</p>
-              <a href="./photos/ducks.JPG" data-lightbox="imagegallery"
-                ><img src="./photos/ducks.JPG" alt="ducks in a pond photograph"
-              /></a>
-              <p>
-                One of thousands of invasive, feral chickens (Kaua'i, Hawai'i
-                2018)
-              </p>
-              <a href="./photos/chicken.png" data-lightbox="imagegallery"
-                ><img
-                  src="./photos/chicken.png"
-                  alt="medium range photograph of a feral chicken"
-              /></a>
-              <p>
-                View of Votivkirche from the Rathaus corridor (Vienna, Austria
-                2017)
-              </p>
-              <a href="./photos/vienna.png" data-lightbox="imagegallery"
-                ><img
-                  src="./photos/vienna.png"
-                  height="172"
-                  alt="view of another building with intricate spires from the vienna rathaus"
-              /></a>
-              <p>
-                Malá Strana - vodník Kabourek | Water sprite statue on the
-                Vltava River (Prague, Czech Republic 2017)
-              </p>
-              <a href="./photos/prague_statue.png" data-lightbox="imagegallery"
-                ><img
-                  src="./photos/prague_statue.png"
-                  height="172"
-                  alt="photo of a water sprite statue in the shape of an old man sitting with a pipe on the Vltava river"
-              /></a>
+              <section class="gallery">
+                <div class="first-photo">
+                  <p>
+                    Metronom. full picture. Fully-functioning giant metronome
+                    (Prague, Czech Republic 2017)
+                  </p>
+                  <a
+                    href="./photos/metronombig.png"
+                    data-lightbox="imagegallery"
+                    ><img
+                      src="./photos/metronombig.png"
+                      height="172"
+                      alt="full photo of giant Prague Metronom"
+                  /></a>
+                </div>
+                <div class="second-photo">
+                  <p>Metronom closeup (Prague, Czech Republic 2017)</p>
+                  <a href="./photos/metronom.JPG" data-lightbox="imagegallery"
+                    ><img
+                      src="./photos/metronom.JPG"
+                      alt="Metronom closeup photo in Prague, Czech Republic"
+                      width="200"
+                  /></a>
+                </div>
+                <div class="third-photo">
+                  <p>
+                    Pražský orloj - Prague Astronomical Clock closeup (Prague,
+                    Czech Republic 2017)
+                  </p>
+                  <a href="./photos/clock.JPG" data-lightbox="imagegallery"
+                    ><img
+                      src="./photos/clock.JPG"
+                      alt="closeup photo of the prague astronomical clock"
+                      width="200"
+                  /></a>
+                </div>
+                <div class="fourth-photo">
+                  <p>Prague Castle (Prague, Czech Republic 2017)</p>
+                  <a href="./photos/spire.JPG" data-lightbox="imagegallery"
+                    ><img
+                      src="./photos/spire.JPG"
+                      alt="prague castle photograph"
+                      width="200"
+                  /></a>
+                </div>
+                <div class="fifth-photo">
+                  <p>Duck and ducklings in a pond (Budapest, Hungary 2017)</p>
+                  <a href="./photos/ducks.JPG" data-lightbox="imagegallery"
+                    ><img
+                      src="./photos/ducks.JPG"
+                      alt="ducks in a pond photograph"
+                      width="200"
+                  /></a>
+                </div>
+                <div class="sixth-photo">
+                  <p>
+                    One of thousands of invasive, feral chickens (Kaua'i,
+                    Hawai'i 2018)
+                  </p>
+                  <a href="./photos/chicken.png" data-lightbox="imagegallery"
+                    ><img
+                      src="./photos/chicken.png"
+                      alt="medium range photograph of a feral chicken"
+                      width="200"
+                  /></a>
+                </div>
+                <div class="seventh-photo">
+                  <p>
+                    View of Votivkirche from the Rathaus corridor (Vienna,
+                    Austria 2017)
+                  </p>
+                  <a href="./photos/vienna.png" data-lightbox="imagegallery"
+                    ><img
+                      src="./photos/vienna.png"
+                      height="172"
+                      alt="view of another building with intricate spires from the vienna rathaus"
+                  /></a>
+                </div>
+                <div class="eighth-photo">
+                  <p>
+                    Malá Strana - vodník Kabourek | Water sprite statue on the
+                    Vltava River (Prague, Czech Republic 2017)
+                  </p>
+                  <a
+                    href="./photos/prague_statue.png"
+                    data-lightbox="imagegallery"
+                    ><img
+                      src="./photos/prague_statue.png"
+                      height="172"
+                      alt="photo of a water sprite statue in the shape of an old man sitting with a pipe on the Vltava river"
+                  /></a>
+                </div>
+              </section>
             </div>
             <!-- <aside>
                         Extra Stuff
